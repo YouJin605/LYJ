@@ -26,6 +26,7 @@ import GoodGatherer from './components/GoodGatherer';
 import Notice from './containers/Notice';
 import Contact from './containers/Contact';
 import Cs from './containers/Cs';
+import LookGatherer from './components/LookGatherer';
 import './index.css';
 
 ReactDOM.render(
@@ -35,7 +36,9 @@ ReactDOM.render(
         <Route path="shop" component={Shop}>
           <Route path=":id" component={GoodGatherer}/>
         </Route>
-        <Route path="lookbook" component={Lookbook}/>
+        <Route path="lookbook" component={Lookbook}>
+        <Route path=":modelNumber" component={LookGatherer}/>
+        </Route>
         <Route path="board" component={Board}>
         <Route path=":id" component={Post}/>
         </Route>

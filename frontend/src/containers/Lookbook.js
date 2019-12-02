@@ -1,12 +1,12 @@
 import React from 'react';
-import LookbookLinks from '../components/LookbookLinks';
+import LookLinks from '../components/LookLinks';
 import "./Lookbook.css"
 
 const Lookbook = ({children}) => {
     return (
         <div>
         {children}
-        <LookbookLinks/>
+        <LookLinks/>
         </div>
     );
 };
