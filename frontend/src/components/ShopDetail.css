@@ -1,0 +1,25 @@
+.goodphoto1,.goodphoto2
+{
+    position: relative;
+    left: 25%;
+    width :25%;
+    height:auto;
+}
+.goodname
+{
+    font-size: 50px;
+    position: relative;
+    left: 25%;
+}
+.goodprice
+{
+    font-size: 15px;
+    position: relative;
+    left: 25%;
+}
+.goodquantity
+{
+    font-size: 15px;
+    position: relative;
+    left: 25%;
+}

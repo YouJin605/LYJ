@@ -1,0 +1,59 @@
+.logo {
+    top : 2px;
+    left: 0px;
+    height: 4.5rem;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.logo-item {
+    display: inline-block;
+    color: white;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.logo-item:hover {
+    background-color: #495057;
+}
+
+.logo-item:active, .logo-item.active {
+    background-color: #1862ab;
+}
+
+.menu {
+    position: fixed;
+    top :0px;
+    right: 0px;
+    width : 40vw;
+    background-color : transparent;
+    height: 70px;
+}
+
+.menu-item {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font : bold;
+    font-size: 40px;
+    line-height: 70px;
+    width: 33.3333%;
+    font : bolder;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #495057;
+}
+
+.menu-item:active, .menu-item.active {
+    background-color: #1862ab;
+}

@@ -1,0 +1,22 @@
+.insta
+{
+    position : fixed;
+    bottom : 30px;
+    right : 48%;
+}
+.kakao
+{
+    position : fixed;
+    bottom : 30px;
+    right : 52%;
+}
+.snapwidget-widget
+{
+    position : fixed;
+    left: 10%;
+    bottom:5%
+}
+.section
+{
+    background-color: black;
+}

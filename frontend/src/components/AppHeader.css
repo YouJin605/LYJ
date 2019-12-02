@@ -1,0 +1,62 @@
+.applogo {
+    top : 2px;
+    left : 2px;
+    height: 5rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.applogo-item {
+    position: fixed;
+    display: inline-block;
+    color: white;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    left: 10px;
+    top : 5px;
+}
+
+.applogo-item:hover {
+    background-color: #8a8e92;
+}
+
+.applogo-item:active, .applogo-item.active {
+    background-color: #b3cce6;
+}
+
+.appmenu {
+    position: fixed;
+    top :0px;
+    right: 0px;
+    width : 40vw;
+    background-color : transparent;
+    height: 70px;
+}
+
+.appmenu-item {
+    display: inline-block;
+    color: black;
+    font-family: sans-serif;
+    font : bold;
+    font-size: 40px;
+    line-height: 70px;
+    width: 33.3333%;
+    font : bolder;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.appmenu-item:hover {
+    background-color: rgb(133, 131, 131);
+}
+
+.appmenu-item:active, .appmenu-item.active {
+    background-color: #1862ab;
+}

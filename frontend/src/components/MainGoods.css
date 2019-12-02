@@ -1,0 +1,15 @@
+.gname
+{
+    font-size:25px;
+    color:black;
+    text-decoration-line:none;
+}
+.gprice
+{
+    font-size: 20px;
+    color:black;
+}
+.maingood
+{
+    display: inline-flex;
+}
