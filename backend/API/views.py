@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from rest_framework import generics
 
-from .models import Post,Good,MainpageImage
-from .serializers import PostSerializer,GoodSerializer,forMainpageSerializer,MainImageSerializer
+from .models import Post,Good,MainpageImage,Lookbook
+from .serializers import PostSerializer,GoodSerializer,forMainpageSerializer,MainImageSerializer,LookbookSerializer
 
 class ListPost(generics.ListCreateAPIView):
     queryset = Post.objects.all()
@@ -32,3 +32,6 @@ class ListMainpageImage(generics.ListCreateAPIView):
     queryset = MainpageImage.objects.all()
     serializer_class = MainImageSerializer
 
+class ListLookbook(generics.ListCreateAPIView):
+    queryset = Lookbook.objects.all()
+    serializer_class = LookbookSerializer
