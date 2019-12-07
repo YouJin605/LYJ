@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Post, Good, MainpageImage, LookbookImage
+from .models import Post, Good, MainpageImage, LookbookImage, Contact
 
 class PostSerializer(serializers.ModelSerializer):
     class Meta:
@@ -9,6 +9,16 @@ class PostSerializer(serializers.ModelSerializer):
             'content',
         )
         model = Post
+
+class ContactSerializer(serializers.ModelSerializer):
+    class Meta:
+        fields = (
+            'id',
+            'user',
+            'usertitle',
+            'usercontent',
+        )
+        model = Contact
 
 class GoodSerializer(serializers.ModelSerializer):
     photo1=serializers.ImageField(use_url=True)

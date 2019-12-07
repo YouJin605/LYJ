@@ -12,6 +12,8 @@ urlpatterns = [
     path('mainpageImage/',views.ListMainpageImage.as_view()),
     path('lookbookImage/',views.ListLookbookImage.as_view()),
     path('lookbookImage/<int:pk>/',views.DetailLookbookImage.as_view()),
+    path('contact/', views.ListContact.as_view()),
+    path('contact/<int:pk>/', views.DetailContact.as_view()),
     #path('lookbookImage/<int:modelNumber>/',views.DetailLookbookImage.as_view()),
     #path('lookbookImage/<int:number>/',views.DetailLookbookImage.as_view()),
     

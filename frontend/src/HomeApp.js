@@ -9,7 +9,6 @@ import image1 from "./components/slavesPhotos/KakaoTalk_20191008_201726162.jpg"
 import image2 from "./components/slavesPhotos/003.jpg"
 import "./HomeApp.css";
 
-
 const Fullpage = () => (
   <ReactFullpage
     //fullpage options
@@ -37,7 +36,7 @@ const Fullpage = () => (
             <MainGoods/>
           </div>  
           <div className="section">
-          <iframe src="https://snapwidget.com/embed/758466" className="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style={{ border: 'none', overflow:'hidden', width:'80%',height:'25%'}}>
+          <iframe src="https://snapwidget.com/embed/758466" className="snapwidget-widget" allowtransparency="true" frameBorder="0" scrolling="no" style={{ border: 'none', overflow:'hidden', width:'80%',height:'25%'}}>
         </iframe>
         <a href = "https://www.instagram.com/trackline_korea/" target = "_blank">
         <img className = "insta" src="insta.png" width="3%"></img></a>

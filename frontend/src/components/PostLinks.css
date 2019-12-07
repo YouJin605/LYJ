@@ -15,7 +15,29 @@
 .post-links a:active {
     background-color: #343a40;
 }
+
 .board
 {
-    top:100px;
+    position: relative;
+    
+}
+.boardtitle
+{
+    font-size : 30px;
+    background-image: url("notice_word.png");
+    background-size: 1080px 59px;
+    padding : 9px;
+    padding-left: 20px;
+}
+.boardcontent
+{
+    font-size : 25px;
+    white-space: pre-line;
+    width : 1080px;
+}
+.notice
+{
+    position: fixed;
+    top:30%;
+    left:22%;
 }

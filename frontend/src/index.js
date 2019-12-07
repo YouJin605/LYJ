@@ -25,6 +25,9 @@ import HomeApp from './HomeApp';
 import GoodGatherer from './components/GoodGatherer';
 import Notice from './containers/Notice';
 import Contact from './containers/Contact';
+import InputLinks from './components/InputLinks';
+import Input from './components/InputLinks';
+
 import Cs from './containers/Cs';
 import LookGatherer from './components/LookGatherer';
 import './index.css';
@@ -46,9 +49,10 @@ ReactDOM.render(
     <Router>
     <Route path="/Notice" component={Notice}/>
     <Route path="/Contact" component={Contact}/>
+    <Route path="/InputLinks" component={InputLinks}/>
     <Route path="/Cs" component={Cs}/>
     </Router>
-  </Router>,
+    </Router>,
   document.getElementById('root')
 );
 

@@ -1,9 +1,12 @@
 from django.shortcuts import render,get_object_or_404,get_list_or_404
 from rest_framework import generics
+from .models import Post,Good,MainpageImage,LookbookImage,Contact
+from .serializers import PostSerializer,GoodSerializer,forMainpageSerializer,MainImageSerializer,LookbookImageSerializer,ContactSerializer
+from django.http import HttpResponse
 
-from .models import Post,Good,MainpageImage,LookbookImage
-from .serializers import PostSerializer,GoodSerializer,forMainpageSerializer,MainImageSerializer,LookbookImageSerializer
-
+def index(request):
+    return HttpResponse(0)
+    
 class ListPost(generics.ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
@@ -11,6 +14,14 @@ class ListPost(generics.ListCreateAPIView):
 class DetailPost(generics.RetrieveUpdateDestroyAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+
+class ListContact(generics.ListCreateAPIView):
+    queryset = Contact.objects.all()
+    serializer_class = ContactSerializer
+
+class DetailContact(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Contact.objects.all()
+    serializer_class = ContactSerializer
 
 class ListGood(generics.ListCreateAPIView):
     queryset = Good.objects.all()

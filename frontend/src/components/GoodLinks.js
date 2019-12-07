@@ -22,13 +22,14 @@ class GoodLinks extends Component {
 
     render() {
         return (
+            
             <div className="good">
                 {this.state.goods.map(item => (
-                    <div key={item.id}>
+                    <div key={item.id} className="eachgood">
                         <Link to={'/shop/'+item.id}>
                         <img className="photo1" src={item.photo1}/>    
                         <h1  className="title">{item.name}</h1>
-                        <span className = "price">{item.price}</span>
+                        <span className = "price">{item.price}원</span>
                         </Link>
                     </div>
                 ))}

@@ -1,0 +1,28 @@
+.contact
+{
+        position: fixed;
+        top:30%;
+        left:22%;
+}
+.eachcontent
+{
+    position: relative;
+}
+.usertitle
+{
+    font-size : 30px;
+    background-image: url("notice_word.png");
+    background-size: 1080px 59px;
+    padding : 9px;
+    padding-left: 20px;
+}
+.user
+{
+
+}
+.usercontent
+{
+    font-size : 25px;
+    white-space: pre-wrap;
+    width : 1078px;
+}

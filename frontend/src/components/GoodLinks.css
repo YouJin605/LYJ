@@ -22,4 +22,9 @@
     display: inline-flex;
     position: relative;
     left : 10%;
+    text-decoration-line: none;
+}
+.eachgood
+{
+    border: 20px solid white;
 }

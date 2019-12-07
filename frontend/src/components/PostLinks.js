@@ -22,11 +22,11 @@ class PostLinks extends Component {
 
     render() {
         return (
-            <div>
+            <div className="notice">
                 {this.state.posts.map(item => (
                     <div className="board" key={item.id}>
-                        <h1 className="boardtitle">{item.title}</h1>
-                        <span className="boardcontent">{item.content}</span>
+                        <h1 className="boardtitle">-{item.title}</h1>
+                        <span className="boardcontent">&nbsp;&nbsp;<img src="under.png" width="25px"/>{item.content}</span>
                     </div>
                 ))}
             </div>

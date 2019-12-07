@@ -12,6 +12,14 @@ class Post(models.Model):
         """A string representation of the model."""
         return self.title
 
+class Contact(models.Model):
+    usertitle = models.CharField(max_length=200)
+    usercontent = models.TextField() 
+    user = models.CharField(max_length=30)
+
+    def __str__(self):
+        """A string representation of the model."""
+        return self.usertitle
 
 class Good(models.Model):
     def date_upload_to(self, filename):

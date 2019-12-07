@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import Header from '../components/boardheader';
 import HeaderMenu from '../components/AppHeader';
+import PostLinks from '../components/PostLinks';
 
 const BoardItem = ({active, children, to}) => (
     <Link to={to} className="boardmenu-item">
@@ -19,8 +20,10 @@ const Notice = ({children}) => {
             <Header/>
             </Header>  
             </div>
+            <div>
+            </div>
+            <PostLinks/>
             {children}
-            공지사항
         </div>
         
     );

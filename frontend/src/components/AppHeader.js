@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 import { Link } from 'react-router';
-import './AppHeader.css';
+import './AppHeader.css'; 
 
 const LogoItem = ({active, children, to}) => (
     <Link to={to} className="applogo-item">

@@ -2,7 +2,15 @@
 {
     font-size:25px;
     color:black;
-    text-decoration-line:none;
+    text-decoration:none;
+}
+.maingood:link
+{
+    text-decoration-line : none;
+}
+.maingood:visited
+{
+    text-decoration-line : none;
 }
 .gprice
 {
@@ -12,4 +20,8 @@
 .maingood
 {
     display: inline-flex;
+}
+.maingood1
+{
+    border: 20px solid white;
 }

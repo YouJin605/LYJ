@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import Header from '../components/boardheader';
 import HeaderMenu from '../components/AppHeader';
+import ContactLinks from '../components/ContactLinks';
 
 const BoardItem = ({active, children, to}) => (
     <Link to={to} className="boardmenu-item">
@@ -20,7 +21,12 @@ const Contact = ({children}) => {
             </Header>  
             </div>
             {children}
-            자유게시판
+            <ContactLinks/>
+            <div>
+            <Link to={'/InputLinks/'}>
+            <button>NEW</button>
+            </Link>
+            </div>
         </div>
     );
 };

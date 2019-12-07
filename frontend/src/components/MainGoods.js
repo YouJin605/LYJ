@@ -23,9 +23,9 @@ class MainSlideShow extends Component {
         return (
         <div className="maingood">
             {this.state.goods.map(item => (
-                <div key={item.id}> 
+                <div key={item.id} className="maingood1"> 
                 <Link to={'/shop'}>             
-                    <img classname="gphoto1" width = "380px" height = "auto" src={item.photo1}/>
+                    <img className="gphoto1" width = "380px" height = "auto" src={item.photo1}/>
                     <h1 className="gname">{item.name}</h1>
                     <span className="gprice">{item.price}원</span>
                 </Link>
