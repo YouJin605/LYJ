@@ -8,7 +8,7 @@
     "classnames": "^2.2.6",
     "fullpage-react": "^3.1.0",
     "json2mq": "^0.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "node-sass": "^4.13.0",
     "nuka-carousel": "^4.5.13",
     "react": "^16.11.0",
