@@ -9,7 +9,7 @@
     "fullpage-react": "^3.1.0",
     "json2mq": "^0.2.0",
     "lodash": "^4.17.15",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "nuka-carousel": "^4.5.13",
     "react": "^16.11.0",
     "react-background-slideshow": "^1.0.4",
